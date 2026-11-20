@@ -71,23 +71,6 @@ The most confused pair is **cat ↔ dog** (208 of 1,373 errors). Vehicles (car, 
 * On 500 images, the default BatchNorm momentum (0.99) left the CNN's validation accuracy stuck at 10%; momentum 0.9 was needed.
 * Data augmentation is implemented but was not used in the main comparison.
 
-## Run it yourself
-
-1. Open the notebook in Google Colab (badge above) and select a GPU runtime: *Runtime → Change runtime type → T4 GPU*.
-2. Download [CIFAR-10 (Python version)](https://www.cs.toronto.edu/~kriz/cifar.html), extract it, and put the `cifar-10-batches-py` folder in your Google Drive under `MyDrive/archive/`.
-3. Run all cells. The full experiment takes roughly an hour on a T4; results are saved to Drive after each training size.
-
-Built with TensorFlow/Keras, scikit-learn, NumPy, pandas and Matplotlib.
-
-## Repository contents
-
-```
-├── UGP\\\_Proj2.ipynb      # full notebook with code, outputs and analysis
-├── results.csv          # results table from the experiment
-├── images/              # figures used in this README
-└── README.md
-```
-
 ## Author
 
 Nikita Pohrebniak, BSc Computer Science (AI specialization), Polish-Japanese Academy of Information Technology (PJATK), Warsaw. Project for the *Deep Learning in Python* course.
