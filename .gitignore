@@ -1,0 +1,15 @@
+# Dataset (downloaded separately, too large for GitHub)
+cifar-10-batches-py/
+*.tar.gz
+
+# Model weights
+*.h5
+*.keras
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
